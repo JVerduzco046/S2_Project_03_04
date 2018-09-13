@@ -1,4 +1,18 @@
-﻿/*
+﻿@charset "utf-8";
+
+@font-face {
+    font-family: Champagne;
+    src: url('cac_champagne.woff') format('.woff'),
+        url('cac_champagne.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Dobkin;
+    src: url('DobkinPlain.woff') format('.woff'),
+        url('DobkinPlain.ttf') format('truetype');
+}
+
+/*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
    Case Problem 4
@@ -12,9 +26,13 @@
 */
 
 /* Body Styles */
-html {
+/* html {
     background-color: #c77456;
+} */
+html {
+    background-image: linear-gradient(180deg, #fd9465 0%, #92654c 100%);
 }
+
 
 body {
     background-color: rgb(253, 240, 188);
@@ -37,4 +55,15 @@ header nav a:active {
     background-color: rgba(255, 134, 47, 0.9);
     color: rgba(170, 94, 39, 0.9);
 
+}
+
+/* section style */
+
+section h1 {
+    font-size: 4em;
+    padding: 5px;
+    text-align: center;
+    text-shadow: rgb(202, 77, 31) 1px 1px 3px;
+    font-family: Dobkin, cursive;
+    margin: 0px;
 }
