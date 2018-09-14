@@ -58,6 +58,11 @@ header nav a:active {
 }
 
 /* section style */
+section#leftcol p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    margin-left: 5px;
+}
 
 section h1 {
     font-size: 4em;
@@ -66,4 +71,57 @@ section h1 {
     text-shadow: rgb(202, 77, 31) 1px 1px 3px;
     font-family: Dobkin, cursive;
     margin: 0px;
+}
+
+section#leftcol p {
+    text-align: left;
+    margin: 0px;
+    padding: 5px;
+    padding-left: 5px;
+}
+
+section#rightcol h2 {
+    text-shadow: rgb(230, 94, 45) 1px 1px 3px;
+    font-family: Dobkin, cursive;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+section#rightcol {
+    background-color: #df875e;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+section#rightcol nav ul li {
+    list-style-type: none;
+    padding: 3px;
+
+}
+
+section#rightcol nav ul li a {
+    text-decoration: none;
+}
+
+section#rightcol nav ul li a:link,
+section#rightcol nav ul li a:visited {
+    color: rgba(255, 218, 194, 0.9);
+}
+
+section#rightcol nav ul li a:hover,
+section#rightcol nav ul li a:active {
+    color: white;
+}
+
+section#rightcol blockquote:before {
+    content: open-quote;
+}
+
+section#rightcol blockquote:after {
+    content: close-quote;
+}
+
+section#rightcol blockquote {
+    font-family: Dobkin;
+    font-size: 1.25em
 }
